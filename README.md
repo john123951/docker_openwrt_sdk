@@ -1,5 +1,5 @@
 # Openwrt SDK 交叉编译工具包
-> 请自行修改CONFIG文件配置
+Openwrt交叉编译环境，请自行修改CONFIG文件配置。
 
 ### 使用方法
 - [启动docker](#启动docker)

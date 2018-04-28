@@ -16,10 +16,4 @@ RUN yum install -y --nogpgcheck wget screen unzip bzip2 subversion git file whic
 RUN .${TMP_PATH}/scripts/downloader.sh \
 	&& rm -rf ${TMP_PATH}
 
-# compile & install libfastcommon
-
-# compile & install fastdfs
-
-# configuration
-
 CMD ["/bin/bash"]
