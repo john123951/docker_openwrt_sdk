@@ -11,7 +11,7 @@
 # 自行决定加 --rm 参数
 docker run -it \
 	-v $PWD:/output \
-	openwrt_tools:latest
+	john123951/openwrt_sdk:MT7621_15.05.1
 ```
 
 ### 编译软件包
