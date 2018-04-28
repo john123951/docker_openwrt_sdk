@@ -1,0 +1,6 @@
+# config
+
+OPENWRT_VERSION=15.05.1
+
+# https://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
+SDK_URL=https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/mt7621/OpenWrt-SDK-15.05.1-ramips-mt7621_gcc-4.8-linaro_uClibc-0.9.33.2.Linux-x86_64.tar.bz2
