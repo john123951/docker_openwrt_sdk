@@ -13,7 +13,7 @@ wget ${SDK_URL} --directory-prefix=${DOWNLOAD_PATH}
 
 echo 'extract......'
 FILE_NAME=${SDK_URL##*/}
-tar xjf ${DOWNLOAD_PATH}/${FILE_NAME} --directory=${DOWNLOAD_PATH}
+./${PWD_PATH}/decompress.sh ${DOWNLOAD_PATH}/${FILE_NAME} ${DOWNLOAD_PATH}
 
 echo 'move folder......'
 echo 'work directory: '$WORK_PATH

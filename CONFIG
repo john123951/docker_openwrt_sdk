@@ -1,6 +1,6 @@
 # config
 
-OPENWRT_VERSION=15.05.1
+OPENWRT_VERSION=17.01.4
 
-# https://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
-SDK_URL=https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/mt7621/OpenWrt-SDK-15.05.1-ramips-mt7621_gcc-4.8-linaro_uClibc-0.9.33.2.Linux-x86_64.tar.bz2
+# https://openwrt.org/docs/guide-developer/using_the_sdk
+SDK_URL=https://downloads.openwrt.org/releases/17.01.4/targets/ar71xx/nand/lede-sdk-17.01.4-ar71xx-nand_gcc-5.4.0_musl-1.1.16.Linux-x86_64.tar.xz
