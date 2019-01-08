@@ -1,12 +1,25 @@
 # Openwrt SDK 交叉编译工具包
-> 请自行修改CONFIG文件配置
 
 ### 使用方法
-- [启动docker](#启动docker)
+- [制作SDK镜像](#制作SDK镜像)
+- [启动编译环境](#启动编译环境)
 - [编译软件包](#编译软件包)
 - [编译固件](#编译固件)
 
-### 启动docker
+
+### 制作SDK镜像
+```
+# 修改CONFIG文件配置
+
+# 修改为需要的版本
+OPENWRT_VERSION=17.01.4
+
+# 修改为SDK地址
+# https://openwrt.org/docs/guide-developer/using_the_sdk
+SDK_URL=https://downloads.openwrt.org/releases/17.01.4/targets/ar71xx/nand/lede-sdk-17.01.4-ar71xx-nand_gcc-5.4.0_musl-1.1.16.Linux-x86_64.tar.xz
+```
+
+### 启动编译环境
 ```
 # 自行决定加 --rm 参数
 docker run -it \
